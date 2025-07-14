@@ -16,7 +16,7 @@ const Navbar = () => {
         navTween.fromTo('nav', {
             backgroundColor: 'transparent'
         },{
-            backgroundColor: '#0000050',
+            backgroundColor: '#00000050',
             backgroundFilter: 'blur(10px)',
             duration: 1,
             ease: 'power1.inOut'
@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <nav>
             <div>
-                <a href="" className='flex-center gap-4'>
+                <a href="/" className='flex-center gap-4'>
                     <img src={logo} alt="Logo" />
                     <p className='text-4xl'>Velvet Pour</p>
                 </a>
